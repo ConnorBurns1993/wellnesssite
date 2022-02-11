@@ -12,7 +12,6 @@ header.page-header {
 }
 
 body {
-    border: solid black 1px;
     background-color: white;
 
 
@@ -215,3 +214,54 @@ li {
     margin-right: 500px;
     background-color: whitesmoke;
 }
+
+.examples {
+    border: solid gray 3px;
+    border-radius: 5px;
+    height:308px;
+    width: 412px;
+}
+
+figcaption {
+    font-family: sans-serif;
+    border: solid gray 3px;
+    border-radius: 5px;
+    background-color: #6c86a0;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    }
+
+.example-spacing {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    width: 27%;
+    margin-right: 5px;
+  }
+
+  .row {
+      position: static;
+      float: left;
+      width: 85%;
+      margin-left: 80px;
+      margin-right: 10px;
+      padding: 20px;
+      margin-top: 50px;
+      margin-bottom: 20px;
+
+  }
+
+  .row2 {
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+  .example-spacing2 {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    width: 27%;
+    margin-top: 15px;
+  }
